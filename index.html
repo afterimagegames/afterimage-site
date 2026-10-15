@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Afterimage Games</title>
+<meta name="description" content="Afterimage Games is a small independent studio making calm puzzle games. First game: Hindsight, a time-loop puzzle.">
+<meta name="theme-color" content="#0e1020" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#f3f4fb" media="(prefers-color-scheme: light)">
+<link rel="icon" href="assets/afterimage-app-icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;500;600&family=Syne:wght@800&display=swap">
+<style>
+:root{--ground:#f3f4fb;--surface:#fbfbfe;--hair:#c6c8d4;--ink:#14163a;--muted:#555a8a;--accent:#3c4bd6;--on-accent:#fff;--echo:#9a3fc9;--logo-dark:none;--logo-light:block}
+@media (prefers-color-scheme:dark){:root{--ground:#0e1020;--surface:#191b2b;--hair:#323444;--ink:#eef0ff;--muted:#9aa0cc;--accent:#8a96ff;--on-accent:#0e1020;--echo:#e0b3ff;--logo-dark:block;--logo-light:none}}
+*{box-sizing:border-box}html,body{background:var(--ground)}
+body{margin:0;color:var(--ink);font:17px/1.6 "Hanken Grotesk",system-ui,sans-serif;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.wrap{max-width:720px;margin:0 auto;padding-block:32px 56px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo-d{display:var(--logo-dark)}.logo-l{display:var(--logo-light)}
+.logo-d,.logo-l{height:44px;width:auto}
+nav a{font:500 12px/1 "DM Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-left:18px}
+nav a:hover{color:var(--ink)}
+h1{font:800 clamp(34px,7vw,56px)/1.02 "Syne","Arial Black",sans-serif;letter-spacing:-.01em;margin:72px 0 16px;text-wrap:balance}
+.lead{color:var(--muted);font-size:20px;max-width:34em;margin:0 0 56px}
+h2{font:500 12px/1 "DM Mono",monospace;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0 0 14px}
+.game{background:var(--surface);border:1px solid var(--hair);border-radius:20px;padding:28px}
+.game h3{font:800 28px/1.1 "Syne",sans-serif;margin:0 0 10px}
+.game p{margin:0 0 14px}
+ul{padding-left:20px;margin:0 0 18px}li{margin:4px 0}
+.pill{display:inline-block;font:500 12px/1 "DM Mono",monospace;letter-spacing:.12em;text-transform:uppercase;padding:9px 14px;border-radius:12px;background:var(--accent);color:var(--on-accent)}
+section{margin-top:56px}
+a{color:var(--accent)}
+footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--hair);color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.legal h1{font-size:clamp(28px,5.5vw,40px);margin:48px 0 6px}
+.legal h2{margin-top:32px}.legal p{margin:0 0 12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><a href="./" aria-label="Afterimage Games home"><img class="logo-d" src="assets/afterimage-logo-horizontal-on-dark.svg" alt="Afterimage Games"><img class="logo-l" src="assets/afterimage-logo-horizontal-on-light.svg" alt=""></a><nav><a href="./#hindsight">Hindsight</a><a href="./#contact">Contact</a></nav></header>
+<h1>Quiet puzzles with long shadows.</h1>
+<p class="lead">Afterimage Games is a small independent studio making calm, thoughtful puzzle games.</p>
+<section id="hindsight"><h2>Our first game</h2>
+<div class="game"><h3>Hindsight</h3>
+<p>A puzzle game about time loops. Walk through each room, then release an echo. It replays your exact route and stands still at the end, holding plates and doors open for the version of you that is still playing.</p>
+<ul><li>Forty levels, each one checked by a solver so it can be solved</li><li>Four colour palettes, each with a dark and a day mode</li><li>Works offline, no account needed</li></ul>
+<span class="pill">Coming to Android</span></div></section>
+<section id="contact"><h2>Contact</h2><p>Questions, bug reports or press: <a href="mailto:afterimagegames@gmail.com">afterimagegames@gmail.com</a></p></section>
+<footer><span>&copy; 2026 Afterimage Games</span><span><a href="privacy.html">Privacy policy</a></span></footer>
+</div>
+</body>
+</html>
